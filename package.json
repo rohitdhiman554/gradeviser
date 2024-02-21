@@ -6,9 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --max-warnings=0",
     "generate": "graphql-codegen -r dotenv/config",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.22.2",
@@ -23,7 +23,7 @@
     "@graphql-codegen/typescript": "^4.0.5",
     "@graphql-codegen/typescript-operations": "^4.1.3",
     "@graphql-codegen/typescript-react-query": "^6.1.0",
-    "@tanstack/eslint-plugin-query": "^5.20.1",
+    "@tanstack/eslint-plugin-query": "^5.20.1",npm i --save react-query-devtools
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
